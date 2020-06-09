@@ -1,0 +1,6 @@
+= OAUTH2 Documentation
+:toc: left
+
+== Documentation url's
+
+* link:https://docs.kantarainitiative.org/uma/rec-oauth-resource-reg-v1_0_1.html#resource-set-desc[resource set documentation]

@@ -1,0 +1,29 @@
+@startuml "resource-set-registration"
+
+left to right direction
+
+actor "Scope Admin" as sa
+package "Scope Registration" {
+    usecase "Create Scope Description" as SD1
+    usecase "Update Scope Description" as SD2
+    usecase "Delete Scope Description" as SD3
+    usecase "Get Scope Description" as SD4
+}
+sa --> SD1
+sa --> SD2
+sa --> SD3
+sa --> SD4
+
+actor "Client Admin" as ca
+package "Resource Set Registration" {
+    usecase "Create Resource Set" as RS1
+    usecase "update Resource Set" as RS2
+    usecase "Delete Resource Set" as RS3
+    usecase "Get Resource Set" as RS4
+}
+ca --> RS1
+ca --> RS2
+ca --> RS3
+ca --> RS4
+
+@enduml
